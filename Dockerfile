@@ -3,5 +3,5 @@ LABEL AUTHOR=Irfan
 WORKDIR /app
 COPY ./bin/release/netcoreapp2.1/publish .
 EXPOSE 5000
-CMD ["dotnet", "run"]
+CMD ["dotnet", "dotnet.dll"]
 
